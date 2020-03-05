@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>consulta medica</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 
@@ -16,7 +17,55 @@
         <img src="./assets/doctor.png" alt="">
       </div>
       <h1 class="h1-font">Consulta Médica</h1>
-      <p class="p-font">teste teste test</p>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">
+          <p class="p-font">selecione o sintoma que esta sentindo</p>
+        </label>
+        <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="selecione um sintoma">
+          <option type="checkbox" class="form-check-input" id="exampleCheck1">
+          <option>dor de cabeça</option>
+          <option>tosse</option>
+          <option>resfriado</option>
+          <option>calafrio</option>
+          <option>dor no peito</option>
+          <option>pressão alta</option>
+          <option>suor frio</option>
+          <option>manchas</option>
+          <option>dor no pulmão</option>
+          <option>dor nas articulações</option>
+          <option>dor no corpo</option>
+        </select>
+      </div>
+      
+        <!-- <form>
+          <div class="form-group">
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="javascript">
+            <label for="javascript">Javascript</label>
+          </div>
+        </form> -->
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">sintomas selecionados</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>teste</td>
+          </tr>
+        </tbody>
+      </table>
       <button class="btn-personality">Consultar</button>
     </div>
     <div class="card1">
@@ -24,13 +73,31 @@
         <img src="./assets/report.png" alt="">
       </div>
       <h1 class="h1-font">Resultado Médico</h1>
-      <p class="p-font">teste teste test</p>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">doença</th>
+            <th scope="col">%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>teste</td>
+            <td>teste</td>
+          </tr>
+        </tbody>
+      </table>
       <!-- table -->
     </div>
   </div>
 
 
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 
 </html>
