@@ -25,23 +25,25 @@ body {
   flex-direction: column;
   align-items: center;
   min-width: 350px;
+  max-width: 600px;
   padding: 2.2rem 2.3rem;
   margin: 50px;
-  min-height: 360px;
+  min-height: 480px;
+  max-height: 500px;
   width: 600px;
   background: #ededed;
   border-radius: 5px;
-  box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
 }
 
 .card2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 350px;
+  min-height: 480px;
   padding: 2.2rem 2.3rem;
   margin: 50px;
-  width: 450px;
+  min-width: 450px;
   background: #ededed;
   border-radius: 5px;
   box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);

@@ -1,0 +1,98 @@
+{
+    "sintomas": [
+        {
+            "name": "dor de cabeça",
+            "id": ""
+        },
+        {
+            "name": "tosse",
+            "id": ""
+        },
+        {
+            "name": "resfiado",
+            "id": ""
+        },
+        {
+            "name": "calafrio",
+            "id": ""
+        },
+        {
+            "name": "dor no peito",
+            "id": ""
+        },
+        {
+            "name": "braço dormente",
+            "id": ""
+        },
+        {
+            "name": "pressão alta",
+            "id": ""
+        },
+        {
+            "name": "suor frio",
+            "id": ""
+        },
+        {
+            "name": "manchas",
+            "id": ""
+        },
+        {
+            "name": "dor no pulmão",
+            "id": ""
+        },
+        {
+            "name": "dor nas articulações",
+            "id": ""
+        },
+        {
+            "name": "dor no corpo",
+            "id": ""
+        }
+    ], 
+
+    "doenca": [
+            {
+                "name": "gripe",
+                "id": ""
+            },
+            {
+                "name": "infarto",
+                "id": ""
+            },
+            {
+                "name": "dengue",
+                "id": ""
+            },
+            {
+                "name": "derrame cerebral",
+                "id": ""
+            },
+            {
+                "name": "",
+                "id": ""
+            }
+    ],
+
+    "relacionamento": [
+        {
+            "idDoenca": "",
+            "idSintoma": []
+        },
+        {
+            "idDoenca": "",
+            "idSintoma": []
+        },
+        {
+            "idDoenca": "",
+            "idSintoma": []
+        },
+        {
+            "idDoenca": "",
+            "idSintoma": []
+        },
+        {
+            "idDoenca": "",
+            "idSintoma": []
+        }
+    ]
+}
